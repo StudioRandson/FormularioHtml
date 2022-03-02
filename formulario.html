@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Semana 3</title>
+	<link rel="stylesheet" type="text/css" href="https://drive.google.com/file/d/1Y9PBLRuAQZ-9ff8xcbayjfSf_CEVBQ6_/view?usp=sharing">
+
+	<style type="text/css">
+
+		body{
+			background-color: lightgray;
+		}
+
+		table, th, td{
+			width: 50%;
+			margin: 0 auto;
+			border: 2px solid black;
+			border-collapse: collapse;
+			background-color: green;
+			color: white;	
+			text-align: center;
+		}	
+
+		input{
+			display: block;
+		}
+
+		form{
+			width: 50%;
+			margin: 0 auto;
+			border: 2px solid #000;
+			padding: 10px;
+			border-radius: 15px;
+			background-color: #eee;
+			color: green ;
+			font-weight: bold;
+
+
+		}
+
+		input:focus {
+  			background-color: green;
+
+  		}
+
+		#s,#rs,#c{
+			display: flex;
+		}
+
+		#d1,#d2,#d3,#d4,#d5,#d6,#d7{
+			display: flex;
+		}
+
+		img{
+			width: 50%;
+			height: 50%;
+			width: 100px;
+			margin: 0 auto;
+			border-radius: 50px;
+			border-style: groove;
+			margin-left: auto;
+    		margin-right: auto;
+    		display: block; 
+
+		}
+
+		a{
+			color: darkgray;
+		}
+
+
+			
+
+	</style>
+		
+
+</head>
+<body>
+
+
+	<center><h2>Fundamentos do Desenvolvimento WEB - <b>Semana 3</b></h2></center>
+
+	<img src="randson.png">
+
+		<center><a href="https://drive.google.com/file/d/1Y9PBLRuAQZ-9ff8xcbayjfSf_CEVBQ6_/view?usp=sharing">randson.png</a></center>
+
+	<! -- OBS: para que a foto apareça na página
+
+			1. clique no link
+			2. baixe a foto
+			3. nome da foto "randson.png"
+			4. coloque na mesma pasta do código
+
+	-->
+
+	<center><p><b>Aluno: </b>Randson Farias Araújo</p></center>
+
+		<tr>
+	<table>
+			<th>Disciplinas</th>
+			<th>Nota</th>			
+			<th>Status</th>			
+		</tr>
+			<tr>
+			<td>Programas Aplicativos</td>
+			<td>86,99</td>
+			<td>Aprovado</td>
+			</tr>
+			<tr>
+			<td>Organização de Computadores</td>
+			<td>80,08</td>
+			<td>Aprovado</td>
+			</tr>
+			<tr>
+			<td>Softwares Utilitários</td>
+			<td>92,50</td>
+			<td>Aprovado</td>
+			</tr>
+			<tr>
+			<td>Sistemas Operacionais</td>
+			<td>76,00</td>
+			<td>Aprovado</td>
+			</tr>
+			<tr>
+			<td>Montagem e Manutenção de Computadores</td>
+			<td>87,00</td>
+			<td>Aprovado</td>
+			</tr>
+			<tr>
+			<td>Lógica de Programação</td>
+			<td>67,05</td>
+			<td>Aprovado</td>
+			</tr>
+			<tr>
+			<td>Redes de Computadores</td>
+			<td>75,47</td>
+			<td>Aprovado</td>
+			</tr>
+		
+
+	</table>
+
+	<br>
+
+	<center><h2> <b>Formulário</b></h2></center>
+	<br>
+
+	<form class="card" name="formulario" action="#" method="get"><br>
+		<label>Nome</label><br>
+		<input type="text" name="nome" size="40"><br>
+
+		<label>E-mail</label><br>
+		<input type="E-mail" name="E-mail" size="40"><br>	
+
+			
+			<label>Relacionamento</label><br><br>
+			<div id="s"><input type="radio" name="Solteiro" value="s">Solteiro</div>
+			<div id="rs"><input type="radio" name="Relacionamento Sério" value="rs">Relacionamento Sério</div>
+			<div id="c"><input type="radio" name="Casado" value="c">Casado</div><br>
+
+
+			<label>Disciplinas Módulo I do Curso Técnico em Informática EaD - IFSULDEMINAS</label><br><br>
+			<div id="d1"><input type="checkbox" name="disciplinas" id="d1">Programas Aplicativos</div>
+			<div id="d2"><input type="checkbox" name="disciplinas" id="d2">Organização de Computadores</div>
+			<div id="d3"><input type="checkbox" name="disciplinas" id="d3">Softwares Utilitários</div>
+			<div id="d4"><input type="checkbox" name="disciplinas" id="d4">Sistemas Operacionais</div>
+			<div id="d5"><input type="checkbox" name="disciplinas" id="d5">Montagem e Manutenção de Computadores</div>
+			<div id="d6"><input type="checkbox" name="disciplinas" id="d6">Lógica de Programação</div>
+			<div id="d7"><input type="checkbox" name="disciplinas" id="d7">Redes de Computadores</div><br>
+			
+
+		<label>CPF</label><br>
+		<input type="text" name="cpf" size="40"><br>
+
+		<label>Senha</label><br>
+		<input type="password" name="senha" size="40"><br><br>
+
+
+			
+			<button type="submit" name="enviar" value="envio">Enviar</button>
+			<button type="reset" name="resetar" value="limpar">Resetar</button>
+			
+	</form>
+
+</body>
+
+
+</html>
